@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Notable|Pacifico|Permanent+Marker&display=swap');
+body{
+  width:100%;
+  height:100%;
+  display:flex;
+  background-image:radial-gradient(white,black);
+  background-repeat:no-repeat;
+  background-position:center;
+  justify-content:center;
+  align-items:center;
+}
+.main{
+    margin-top:100px;
+  width:300px;
+  height:450px;
+  border:12px solid white;
+  border-radius:50px 50px 50px 50px;
+  box-shadow:5px 5px 10px 5px black;
+  background-image:linear-gradient(#E87656 30%,#FF5649 70%);
+  align-items:center;
+  display:flex;
+  flex-direction:column;
+}
+.head{
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  margin-top:-70px;
+  border:12px solid #5C1710;
+}
+#profile{
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  
+  
+  
+}
+.title{
+ display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+h1{
+ font-family: 'Notable', sans-serif;
+  color:#5C1710;
+  text-shadow:2px 2px 5px white,-2px -2px 5px white;
+ 
+}
+h2{
+  font-family: 'Pacifico', cursive;
+  color:white;
+  text-shadow:5px 5px 5px #5C1710,-5px -5px 5px #5C1710;
+  margin-top:-20px;
+}
+.border{
+  width:70%;
+  height:8px;
+  background:#5C1710;
+  border-radius:50px;
+}
+.body{
+  display:flex;
+}
+.followers{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:0px 30px;
+}
+.following{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:0px 30px;
+}
+.number{
+  font-family: 'Notable', sans-serif;
+  font-size:48px;
+  color:white;
+  text-shadow:5px 5px 5px #5C1710z;
+}
+.name{
+  font-family: 'Permanent Marker', cursive;
+  font-size:20px;
+  color:#5C1710z;
+  text-shadow:5px 5px 5px #fff;
+
+  
+}
+.contact{
+  display:flex;
+  padding:20px 50px;
+}
+.link{
+  display:flex;
+  flex-direction:column;
+  padding:10px;
+  align-items:center;
+}
+.yo{
+  margin:10px;
+  text-align:center;
+  font-size:16px;
+  font-family:monospace;
+  color:white;
+}
+.yo:hover{
+  color:#5C1710;
+}
